@@ -1,0 +1,167 @@
+.sales-bg-shadow {
+  box-shadow:
+    0px 2.767px 2.214px 0px rgba(108, 73, 172, 0.02),
+    0px 6.65px 5.32px 0px rgba(108, 73, 172, 0.03),
+    0px 12.522px 10.017px 0px rgba(108, 73, 172, 0.04),
+    0px 22.336px 17.869px 0px rgba(108, 73, 172, 0.04),
+    0px 41.778px 33.422px 0px rgba(108, 73, 172, 0.05),
+    0px 100px 80px 0px rgba(108, 73, 172, 0.07);
+}
+
+.bubble-purple-44 {
+  width: 44px;
+  height: 44px;
+  top: 240px;
+  left: 97px;
+  background: rgba(147, 82, 229, 0.8);
+  filter: drop-shadow(0px 3.016px 2.214px rgba(132, 13, 226, 0.04))
+    drop-shadow(0px 7.249px 5.32px rgba(134, 13, 226, 0.193))
+    drop-shadow(0px 13.648px 10.017px rgba(135, 14, 228, 0.071))
+    drop-shadow(0px 24.347px 17.869px rgba(134, 13, 226, 0.328))
+    drop-shadow(0px 45.538px 33.422px rgba(134, 13, 226, 0.273))
+    drop-shadow(0px 109px 80px rgba(134, 13, 226, 0.32));
+}
+
+.bubble-purple-16 {
+  width: 16px;
+  height: 16px;
+  top: 185px;
+  left: 174px;
+  background: #9352e5;
+}
+
+.bubble-yellow-34 {
+  width: 34px;
+  height: 34px;
+  top: 116px;
+  left: 200px;
+  background: #fae634;
+}
+
+.bubble-red-146 {
+  width: 146px;
+  height: 146px;
+  top: 133px;
+  left: 216px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff505d;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+  filter: drop-shadow(0px 2.317px 1.854px rgba(255, 43, 43, 0.04))
+    drop-shadow(0px 5.388px 4.31px rgba(255, 43, 43, 0.06))
+    drop-shadow(0px 9.675px 7.74px rgba(255, 43, 43, 0.07))
+    drop-shadow(0px 16.057px 12.846px rgba(255, 43, 43, 0.2))
+    drop-shadow(0px 26.453px 21.163px rgba(255, 43, 43, 0.354))
+    drop-shadow(0px 46.233px 36.986px rgba(255, 43, 43, 0.11))
+    drop-shadow(0px 100px 80px rgba(255, 43, 43, 0.263));
+}
+
+.bubble-violet-247 {
+  width: 247px;
+  height: 247px;
+  top: 24px;
+  left: 314px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #695dfb;
+  mix-blend-mode: multiply;
+  filter: drop-shadow(0px 3.016px 2.214px rgba(132, 13, 226, 0.04))
+    drop-shadow(0px 7.249px 5.32px rgba(132, 13, 226, 0.06))
+    drop-shadow(0px 13.648px 10.017px rgba(132, 13, 226, 0.07))
+    drop-shadow(0px 24.347px 17.869px rgba(134, 13, 226, 0.179))
+    drop-shadow(0px 45.538px 33.422px rgba(132, 13, 226, 0.1))
+    drop-shadow(0px 109px 80px rgba(134, 13, 226, 0.231));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble-yellow-94 {
+  width: 94px;
+  height: 94px;
+  top: 216px;
+  left: 312px;
+  background: #f9e001;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+}
+
+.bubble-purple-25 {
+  width: 25px;
+  height: 25px;
+  top: 274px;
+  left: 542px;
+  background: #9352e5;
+}
+.bubble-violet-25 {
+  width: 25px;
+  height: 25px;
+  top: 193px;
+  left: 658px;
+  background: #695dfb;
+}
+.bubble-purple-16-2 {
+  top: 143px;
+  left: 696px;
+  width: 16px;
+  height: 16px;
+  background: #9352e5;
+}
+.bubble-yellow-129 {
+  width: 129px;
+  height: 129px;
+  background: #fae634;
+  mix-blend-mode: multiply;
+  top: 157px;
+  left: 723px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble-violet-68 {
+  width: 68px;
+  height: 68px;
+  top: 118px;
+  left: 800px;
+  background: rgba(105, 93, 251, 0.8);
+  mix-blend-mode: multiply;
+  filter: drop-shadow(0px 3.016px 2.214px rgba(132, 13, 226, 0.04))
+    drop-shadow(0px 7.249px 5.32px rgba(132, 13, 226, 0.06))
+    drop-shadow(0px 13.648px 10.017px rgba(134, 13, 226, 0.219))
+    drop-shadow(0px 24.347px 17.869px rgba(134, 13, 226, 0.287))
+    drop-shadow(0px 45.538px 33.422px rgba(132, 13, 226, 0.1))
+    drop-shadow(0px 109px 80px rgba(134, 13, 226, 0.237));
+}
+
+.bubble-red-77 {
+  top: 209px;
+  left: 837px;
+  width: 77px;
+  height: 77px;
+  background: #ff737d;
+  mix-blend-mode: multiply;
+  filter: drop-shadow(0px 3.016px 2.214px rgba(226, 13, 148, 0.04))
+    drop-shadow(0px 7.249px 5.32px rgba(226, 13, 148, 0.05))
+    drop-shadow(0px 13.648px 10.017px rgba(226, 13, 148, 0.06))
+    drop-shadow(0px 24.347px 17.869px rgba(226, 13, 148, 0.264))
+    drop-shadow(0px 45.538px 33.422px rgba(226, 13, 148, 0.09))
+    drop-shadow(0px 109px 80px rgba(226, 13, 148, 0.199));
+}
+.bubble-purple-16-3 {
+  width: 16px;
+  height: 16px;
+  top: 222px;
+  left: 924px;
+  background: #9352e5;
+}
+.bubble-purple-44-2 {
+  top: 243px;
+  left: 945px;
+  width: 44px;
+  height: 44px;
+  background: #9352e5;
+}
