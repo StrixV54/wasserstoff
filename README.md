@@ -2,7 +2,10 @@
 
 Tech Stacks : ReactJs, React-Router, Vite, Tailwind CSS, AntDesign 
 
-##### Live Link: https://wasserstoff-shrikant.netlify.app/
+##### Live Link:
+| Dashboard:  https://wasserstoff-shrikant.netlify.app/
+| DashboardWithSalesFigure:  https://wasserstoff-shrikant.netlify.app/sales
+| TotalEarning:  https://wasserstoff-shrikant.netlify.app/earning
 
 ##### Video Link : Uploading in 1 hr...
 
