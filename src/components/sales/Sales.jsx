@@ -1,11 +1,12 @@
-import Home from "@/app/page";
-import "../sales/sales.css";
+import Home from "../Home";
+import "./sales.css";
 
 export default function Sales() {
   return (
     <>
       <Home />
       <div className="sales-bg-shadow absolute z-[200] top-[184px] left-[442px] h-[530px] w-[1070px] rounded-[20px] px-[30px] py-[20px] gap-[37px] flex flex-col bg-white">
+        {/* Sales Figure heading with labels */}
         <div className="flex w-full">
           <div className="font-poppins text-lg font-[600] tracking-[0.1px] flex-1">
             Sales Figures
@@ -25,6 +26,7 @@ export default function Sales() {
             </li>
           </ul>
         </div>
+        {/* Sales Figure Graph */}
         <div className="relative w-full h-[425px] flex flex-row text-[#383874] justify-between font-poppins">
           <div className="h-full flex text-right flex-col w-fit">
             {["1k", "800", "600", "400", "200", "0"].map((item, idx) => (
@@ -61,6 +63,7 @@ export default function Sales() {
               </div>
             ))}
           </div>
+          {/* Bubbles with Data and Shades */}
           <div className="bubble-purple-44 absolute rounded-full"></div>
           <div className="bubble-purple-16 absolute rounded-full"></div>
           <div className="bubble-yellow-34 absolute rounded-full"></div>

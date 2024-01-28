@@ -1,13 +1,23 @@
-import GlobalMap from "@/components/GlobalMap/GlobalMap";
-import GlobalMapShadow from "@/components/GlobalMap/GlobalMapShadow";
+import GlobalMap from "./globalmap/GlobalMap";
+import GlobalMapShadow from "./globalmap/GlobalMapShadow";
 import { Progress } from "antd";
-import LineGraph from "@/components/LineGraph";
-import LocationPopup from "@/components/LocationPopup";
+import LineGraph from "./LineGraph";
+import LocationPopup from "./LocationPopup";
+import SalesImg from "../assets/sales.svg";
+import RightArrow from "../assets/rightarrow.svg";
+import PurchaseImg from "../assets/purchase.svg";
+import ChicagoImg from "../assets/chicago.svg";
+import ManausImg from "../assets/manaus.svg";
+import BerlinImg from "../assets/berlin.svg";
+import GizaImg from "../assets/giza.svg";
+import ShanghaiImg from "../assets/shanghai.svg";
+import QueenslandImg from "../assets/queenland.svg";
 
 export default function Home() {
   return (
     <div className="flex-1 w-full h-full px-[50px] overflow-x-hidden">
       <div className="flex flex-col text-[#383874] relative">
+        {/* Side Stats */}
         <div>
           <div className="mt-[23px] text-[20px] font-[400] font-archivo">
             WSTF FRONT-END HACKATHON
@@ -17,7 +27,7 @@ export default function Home() {
               <h6 className="font-[600] text-xl leading-[32px]">All Users</h6>
               <div className="flex font-roboto text-[10px] uppercase font-[700] tracking-[1.5px] items-center pt-1">
                 Details
-                <img alt="right-arrow" src="rightarrow.svg" />
+                <img alt="right-arrow" src={RightArrow} />
               </div>
             </div>
             <h1 className="col-span-2 font-poppins font-[500] text-[72px] leading-[100px] tracking-[-1.75px]">
@@ -29,7 +39,7 @@ export default function Home() {
               <img
                 alt="icon"
                 className="h-[70px] w-[70px] rounded-[20px] bg-[#8676FF] p-[20px]"
-                src="sales.svg"
+                src={SalesImg}
               />
               <div className="font-[400] font-roboto text-xl">
                 Total earning <br />
@@ -42,7 +52,7 @@ export default function Home() {
               <img
                 alt="icon"
                 className="h-[70px] w-[70px] rounded-[20px] bg-[#66C8FF] p-[20px]"
-                src="trend.svg"
+                src={SalesImg}
               />
               <div className="font-[400] font-roboto text-xl">
                 Sales <br />
@@ -55,7 +65,7 @@ export default function Home() {
               <img
                 alt="icon"
                 className="h-[70px] w-[70px] rounded-[20px] bg-[#FF9066] p-[20px]"
-                src="purchase.svg"
+                src={PurchaseImg}
               />
               <div className="font-[400] font-roboto text-xl">
                 Purchase <br />
@@ -100,6 +110,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* Background Map */}
         <div className="absolute left-[405px] top-[49px]">
           <div className="relative h-[750px] w-full">
             <GlobalMap />
@@ -107,7 +118,7 @@ export default function Home() {
             <LocationPopup
               topInPx={"182px"}
               leftInPx={"143px"}
-              imgSrc={"chicago.svg"}
+              imgSrc={ChicagoImg}
               label={"Chicago"}
               value={"98,320,300"}
               bgColor={"#66C8FF"}
@@ -115,7 +126,7 @@ export default function Home() {
             <LocationPopup
               topInPx={"428px"}
               leftInPx={"267px"}
-              imgSrc={"manaus.svg"}
+              imgSrc={ManausImg}
               label={"Manaus"}
               value={"12,320,300"}
               bgColor={"#F8A243"}
@@ -123,7 +134,7 @@ export default function Home() {
             <LocationPopup
               topInPx={"99px"}
               leftInPx={"590px"}
-              imgSrc={"berlin.svg"}
+              imgSrc={BerlinImg}
               label={"Berlin"}
               value={"76,541,106"}
               bgColor={"#7BDDA2"}
@@ -131,7 +142,7 @@ export default function Home() {
             <LocationPopup
               topInPx={"315px"}
               leftInPx={"683px"}
-              imgSrc={"giza.svg"}
+              imgSrc={GizaImg}
               label={"Giza"}
               value={"10,547,980"}
               bgColor={"#FF7E7E"}
@@ -139,7 +150,7 @@ export default function Home() {
             <LocationPopup
               topInPx={"247px"}
               leftInPx={"1064px"}
-              imgSrc={"shanghai.svg"}
+              imgSrc={ShanghaiImg}
               label={"Shanghai"}
               value={"12,320,300"}
               bgColor={"#E8A5FF"}
@@ -147,13 +158,14 @@ export default function Home() {
             <LocationPopup
               topInPx={"547px"}
               leftInPx={"1175px"}
-              imgSrc={"queenland.svg"}
+              imgSrc={QueenslandImg}
               label={"Queensland"}
               value={"6,097,321"}
               bgColor={"#669AFF"}
             />
           </div>
         </div>
+        {/* Bottom Bar Stats */}
         <div className="sales-figure-shadow mt-[56px] mb-[26px] flex h-[86px] gap-[17px] bg-white shadow-md items-center rounded-2xl">
           <div className="px-[32px] text-sm font-[400] leading-6 font-roboto ">
             Sales Figures

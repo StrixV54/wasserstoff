@@ -1,3 +1,6 @@
+import DownArrow from "../assets/downarrow.svg";
+
+/* eslint-disable react/prop-types */
 export default function LocationPopup({
   topInPx,
   leftInPx,
@@ -30,7 +33,7 @@ export default function LocationPopup({
         </div>
         <img
           alt="down-arrow"
-          src="downarrow.svg"
+          src={DownArrow}
           className="w-[25px] h-[18px] absolute bottom-[-15px] left-[46%]"
         />
       </div>

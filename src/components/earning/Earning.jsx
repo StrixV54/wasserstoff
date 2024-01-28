@@ -1,22 +1,34 @@
-import "../earning/earning.css";
+import "./earning.css";
+import EarningCircleImg from "../../assets/earningcircle.svg";
+import DiamondImg from "../../assets/diamond.svg";
+import UpArrowImg from "../../assets/uparrow.svg";
+import UpArrowGlowImg from "../../assets/uparrowglow.svg";
+import PresentationImg from "../../assets/presentation.svg";
+import DevelopmentImg from "../../assets/development.svg";
+import ResearchImg from "../../assets/research.svg";
 
 export default function Earning() {
   return (
     <div className="flex-1 w-full h-full overflow-x-hidden bg-[#FAFAFA] text-[#383874]">
       <div className="flex flex-row font-poppins">
+        {/* Side Stats */}
         <div className="mx-[50px]">
-          <h4 className="font-[400] text-[34px] leading-10">Design faster</h4>
+          {/* Design Faster heading */}
+          <h4 className="font-[400] text-[34px] leading-10 mt-[31px]">
+            Design faster
+          </h4>
+          {/* Sidebar - Earning Graph Stats */}
           <div className="earning-circle-bg-shadow w-[290px] h-[402px] flex flex-col bg-white rounded-[10px] gap-[30px] mt-[31px] py-[20px] px-[30px] justify-center text-[#383874] items-center">
             <div className="flex flex-col gap-4 items-center">
               <div className="relative h-fit w-fit flex items-center justify-center">
                 <img
                   alt="chart"
-                  src="earningcircle.svg"
+                  src={EarningCircleImg}
                   className="h-[146px] w-[146px]"
                 />
                 <img
                   alt="chart"
-                  src="diamond.svg"
+                  src={DiamondImg}
                   className="absolute h-[26px] w-[26px]"
                 />
               </div>
@@ -27,7 +39,7 @@ export default function Earning() {
                 <h5 className="text-[22px] flex font-[600] leading-9 font-poppins flex-row gap-2 items-center justify-center">
                   $12,875
                   <div className="font-roboto text-[#00B929] text-sm font-[400] flex mt-1">
-                    <img alt="chart" src="uparrow.svg" className="w-[14px]" />
+                    <img alt="chart" src={UpArrowImg} className="w-[14px]" />
                     <span className="mt-[1px]">2%</span>
                   </div>
                 </h5>
@@ -42,24 +54,25 @@ export default function Earning() {
                 <div className="w-[40px] text-sm font-[400] opacity-60">
                   862
                 </div>
-                <img alt="chart" src="presentation.svg" className="w-[68px]" />
+                <img alt="chart" src={PresentationImg} className="w-[68px]" />
               </div>
               <div className="flex gap-[16px] items-center justify-between w-full">
                 <div className="w-[88px] text-sm font-[400]">Development</div>
                 <div className="w-[40px] text-sm font-[400] opacity-60">
                   753
                 </div>
-                <img alt="chart" src="development.svg" className="w-[68px]" />
+                <img alt="chart" src={DevelopmentImg} className="w-[68px]" />
               </div>
               <div className="flex gap-[16px] items-center justify-between w-full">
                 <div className="w-[88px] text-sm font-[400]">Research</div>
                 <div className="w-[40px] text-sm font-[400] opacity-60">
                   553
                 </div>
-                <img alt="chart" src="research.svg" className="w-[68px]" />
+                <img alt="chart" src={ResearchImg} className="w-[68px]" />
               </div>
             </div>
           </div>
+          {/* Sidebar - Total Earning Number Stats */}
           <div className="purple-box-shadow w-[290px] h-[252px] bg-[#8676FF] mt-[28px] flex flex-col justify-between text-white px-[30px] py-[20px] rounded-[10px]">
             <div className="flex flex-col gap-1">
               <div className="font-[300] font-poppins leading-6">
@@ -68,7 +81,7 @@ export default function Earning() {
               <h4 className="text-[34px] flex font-[400] leading-9 font-poppins flex-row gap-2 items-center">
                 $12,875
                 <div className="font-roboto text-[#38F261] text-sm font-[400] flex mt-3">
-                  <img alt="chart" src="uparrowglow.svg" className="w-[14px]" />
+                  <img alt="chart" src={UpArrowGlowImg} className="w-[14px]" />
                   <span className="mt-[1px]">10%</span>
                 </div>
               </h4>
@@ -82,7 +95,7 @@ export default function Earning() {
               <h4 className="text-[34px] flex font-[400] leading-9 font-poppins flex-row gap-2 items-center">
                 $43,123
                 <div className="font-roboto text-[#38F261] text-sm font-[400] flex mt-3">
-                  <img alt="chart" src="uparrowglow.svg" className="w-[14px]" />
+                  <img alt="chart" src={UpArrowGlowImg} className="w-[14px]" />
                   <span className="mt-[1px]">12%</span>
                 </div>
               </h4>
@@ -92,6 +105,7 @@ export default function Earning() {
             </div>
           </div>
         </div>
+        {/* Bubble Circle Graph Main */}
         <div className="flex-1 relative h-[982px] rounded-s-[73px] bg-[#EEF1FA]">
           <div className="absolute top-[35px] left-[681px] tracking-[5px] leading-4 font-opensans text-[10px] font-[700] text-black uppercase">
             Timeline

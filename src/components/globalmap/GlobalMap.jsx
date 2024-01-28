@@ -1,5 +1,3 @@
-import GlobalMapShadow from "./GlobalMapShadow";
-
 export default function GlobalMap() {
   return (
     <div className="global-map">
